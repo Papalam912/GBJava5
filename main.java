@@ -1,0 +1,19 @@
+package org.example;
+
+import java.util.HashMap;
+
+public class main {
+    public static void main(String[] args) {
+        HashMap<Integer, String> phoneBook = new HashMap<>();
+        phoneBook.put(1111, "John Doe ");
+        phoneBook.put(2222, "Jane Doe ");
+        phoneBook.put(3333, "John Doe ");
+        phoneBook.put(4444, "John Doe ");
+        phoneBook.put(5555, "Jane Doe ");
+        phoneBook.put(6666, "John Doe ");
+        phoneBook.put(7777, "Jane Doe ");
+        phoneBook.put(8888, "Baby Doe");
+
+        hw5.printPhoneBook(hw5.getPhoneBook(phoneBook));
+    }
+}
